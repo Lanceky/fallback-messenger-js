@@ -1,0 +1,44 @@
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.fauget {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #555;
+    animation: float 3s ease-in-out infinite;
+}
+
+.icon:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.icon:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.icon:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.icon:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
