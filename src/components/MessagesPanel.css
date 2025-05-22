@@ -1,0 +1,56 @@
+.messages-panel {
+    width: 300px;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(0, 183, 168, 1) 0%, rgba(54, 79, 144, 1) 100%);
+    ;
+    border-left: 1px solid #e0e0e0;
+    padding: 20px;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+.panel-title {
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.messages-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.message-item {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #8ec4ae;
+    border-radius: 8px;
+}
+
+.sender {
+    font-weight: bold;
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.message-text {
+    color: #333;
+    display: block;
+}
+
+.empty-state {
+    text-align: center;
+    color: #666;
+    padding: 40px 20px;
+}
+
+.empty-state p:first-child {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}

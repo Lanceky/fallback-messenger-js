@@ -9,18 +9,18 @@ const SocialIcons = () => {
       <img src={fauget} alt="logo" className="fauget" />
       <FaWhatsapp 
        style={{ 
-        color: "#25D366", // WhatsApp green color
-        fontSize: "50px", // Adjust size as needed
-        margin: "5px",   // Add spacing if required
-        cursor: "pointer" // Change cursor on hover
+        color: "#25D366", 
+        fontSize: "50px", 
+        margin: "5px",   
+        cursor: "pointer"
       }} 
       className="icon" />
       <FaFacebook 
       style={{ 
-        color: "#1877F2",  // Facebook's brand blue color
-        fontSize: "50px",  // Adjust size as needed
-        margin: "5px",     // Add spacing
-        cursor: "pointer", // Change cursor on hover
+        color: "#1877F2",  
+        fontSize: "50px", 
+        margin: "5px",     
+        cursor: "pointer", 
       }} 
       className="icon" />
       <FaTwitter 
